@@ -2,14 +2,14 @@
 
 
 [[projects]]
+  branch = "master"
   name = "github.com/julienschmidt/httprouter"
   packages = ["."]
-  revision = "8c199fb6259ffc1af525cc3ad52ee60ba8359669"
-  version = "v1.1"
+  revision = "adbc77eec0d91467376ca515bc3a14b8434d0f18"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "59de32be4f2bbe73f4cedb526c7cc61b1ece6defba7c75990dfbffa4656282ea"
+  inputs-digest = "4699905f9db6cd9d302481c809910da2207132243f148021092d3eb39946cc30"
   solver-name = "gps-cdcl"
   solver-version = 1

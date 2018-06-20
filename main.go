@@ -4,7 +4,6 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/julienschmidt/httprouter"
 	"log"
 	"net/http"
 	"net/http/httputil"
@@ -13,6 +12,8 @@ import (
 	"os/signal"
 	"path/filepath"
 	"time"
+
+	"github.com/julienschmidt/httprouter"
 )
 
 var (
